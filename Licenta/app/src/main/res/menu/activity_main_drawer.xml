@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        >
+
+
+        <item
+            android:id="@+id/nav_scan"
+            android:icon="@drawable/scan"
+            android:title="@string/menu_scan" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="?android:attr/actionModeFindDrawable"
+            android:title="@string/menu_history" />
+        <item
+            android:id="@+id/nav_sales"
+            android:icon="@drawable/sales"
+            android:title="@string/menu_sales" />
+
+        <item
+
+            android:id="@+id/nav_logOut"
+            android:icon="@drawable/logout"
+            android:title="@string/log_out"
+            />
+    </group>
+
+</menu>

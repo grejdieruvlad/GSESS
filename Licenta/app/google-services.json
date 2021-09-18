@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "898369664901",
+    "firebase_url": "https://gsessv1-0-0.firebaseio.com",
+    "project_id": "gsessv1-0-0",
+    "storage_bucket": "gsessv1-0-0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898369664901:android:1d1b0d4e40873c90c7f6ec",
+        "android_client_info": {
+          "package_name": "fiesc.licenta.gsess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898369664901-lui54qa6jo849foa3uik556v7s697v9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxrbAXxc8iJ85M99b6uqJmGwLyM_Uz9ZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898369664901-lui54qa6jo849foa3uik556v7s697v9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

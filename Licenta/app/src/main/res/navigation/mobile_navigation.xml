@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_scan">
+
+    <fragment
+        android:id="@+id/nav_scan"
+        android:name="fiesc.licenta.gsess.ui.scan.ScanFragment"
+        android:label="@string/menu_scan"
+        android:gravity="center"
+        tools:layout="@layout/fragment_scan" >
+        <action
+            android:id="@+id/action_nav_scan_to_nav_history"
+            app:destination="@id/nav_history" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="fiesc.licenta.gsess.ui.History.HistoryFragment"
+        android:label="@string/menu_history"
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/action_nav_history_to_nav_sales"
+            app:destination="@id/nav_sales" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_sales"
+        android:name="fiesc.licenta.gsess.ui.sales.SalesFragment"
+        android:label="@string/menu_sales"
+        tools:layout="@layout/fragment_sales" >
+        <action
+            android:id="@+id/action_nav_sales_to_nav_sales2"
+            app:destination="@id/nav_logOut" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_logOut"
+        android:name="fiesc.licenta.gsess.ui.sales.SalesFragment"
+        android:label="@string/menu_sales"
+        tools:layout="@layout/fragment_sales" />
+</navigation>
